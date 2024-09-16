@@ -32,29 +32,12 @@ function animation() {
                 });
                 
 			}
-            
+
             if (box.classList.contains("footer")) {
-                let redirectPerformed = false;
                 setTimeout(() => {
-                    if (!redirectPerformed) {
-                        window.open("https://roobinium.io/", "_blank");
-                        redirectPerformed = true;
-                    }
-                }, 1000);
+                    window.location.href = " https://roobinium.io/"; 
+                }, 500);
             }
-
-            // if (box.classList.contains("footer")) {
-            //     setTimeout(() => {
-            //         // let userConfirmed = confirm("Вы хотите открыть сайт в новой вкладке?");
-            //         // if (userConfirmed) {
-            //         //     window.open("https://roobinium.io/", "_blank");
-            //         // }
-
-            //         // window.location.href = " https://roobinium.io/"; 
-            //         window.open("https://roobinium.io/", "_blank"); 
-
-            //     }, 1000);
-            // }
 
             if (box.classList.contains("tech-stack")) {
                 const swiper = new Swiper(".tech-stack__container", {
