@@ -33,11 +33,11 @@ function animation() {
                 
 			}
 
-            // if (box.classList.contains("footer")) {
-            //     setTimeout(() => {
-            //         window.location.href = " https://roobinium.io/"; 
-            //     }, 500);
-            // }
+            if (box.classList.contains("footer")) {
+                setTimeout(() => {
+                    window.location.href = " https://roobinium.io/"; 
+                }, 500);
+            }
 
             if (box.classList.contains("tech-stack")) {
                 const swiper = new Swiper(".tech-stack__container", {
